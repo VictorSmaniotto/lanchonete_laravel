@@ -12,7 +12,7 @@ class HomeController extends Controller
         return view('site.home.index');
     }
 
-    public function produto()
+    public function produto($id)
     {
         return view('site.home.produto');
     }

@@ -9,8 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="icones/icones.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/icones/icones.css">
     <title>Lanchonete Burguer</title>
 </head>
 <body>
@@ -20,7 +20,7 @@
                 <i class="icon-botao-hamburguer"></i>
             </div>
             <div id="logotipo">
-                <img src="img/exports/logotipo-2.svg" alt="Lanchonete burguer" height="40">
+                <img src="/img/exports/logotipo-2.svg" alt="Lanchonete burguer" height="40">
             </div>
 
             <nav id="menu-principal">
@@ -28,7 +28,7 @@
                     <div id="btn-close" class="icon-menu-fechar">
                         <i class="icon-close"></i>
                     </div>
-                    <img src="img/exports/logotipo-2.svg" alt="Lanchonete burguer" height="35">
+                    <img src="/img/exports/logotipo-2.svg" alt="Lanchonete burguer" height="35">
                 </div>
 
                 <ul>
@@ -41,7 +41,7 @@
             <div id="overlay"></div>
             <div id="usuario">
                 <h1>
-                    <img src="img/profile/usuario1.jpg" class="formato-bolinha" alt="Usuário" height="40">
+                    <img src="/img/profile/usuario1.jpg" class="formato-bolinha" alt="Usuário" height="40">
                 </h1>
             </div>
         </div>
@@ -77,6 +77,6 @@
         </nav>
     </footer>
 
-    <script src="js/main.js"></script>
+    <script src="/js/main.js"></script>
 </body>
 </html>

@@ -2,7 +2,7 @@
 @section('conteudo')
 
         <div id="produto-aberto">
-                <img src="img/lanches/hamburguer-teste.jpg" alt="Lanche" class="img-fluid">
+                <img src="/img/lanches/hamburguer-teste.jpg" alt="Lanche" class="img-fluid">
             <div id="produto-descricao">
                 <div class="produto-nome">
                     <h2>X-Bacon</h2>

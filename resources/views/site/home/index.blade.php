@@ -38,49 +38,49 @@
 
         <div class="lista-produtos">
             <div class="item-produto">
-                <img src="img/lanches/hamburguer-teste.jpg" alt="Lanche" class="img-fluid">
-                <h2>X-Bacon</h2>
-                <small>Pão, hambúrguer 100g, bacon crocante,cheddar e...</small>
-                <div class="box-preco">
-                    <span class="preco">R$19,90</span>
-                    <a href="hamburguer.html" class="btn-adicionar">
-                        <img src="img/exports/btn-add.svg" alt="adicionar" height="20">
-                    </a>
-                </div>
-            </div>
-
-            <div class="item-produto">
-                <img src="img/lanches/hamburguer-1.jpg" alt="Lanche" class="img-fluid">
+                <img src="/img/lanches/hamburguer-teste.jpg" alt="Lanche" class="img-fluid">
                 <h2>X-Bacon</h2>
                 <small>Pão, hambúrguer 100g, bacon crocante,cheddar e...</small>
                 <div class="box-preco">
                     <span class="preco">R$19,90</span>
                     <a href="#" class="btn-adicionar">
-                        <img src="img/exports/btn-add.svg" alt="adicionar" height="20">
+                        <img src="/img/exports/btn-add.svg" alt="adicionar" height="20">
                     </a>
                 </div>
             </div>
 
             <div class="item-produto">
-                <img src="img/lanches/hamburguer-2.jpg" alt="Lanche" class="img-fluid">
+                <img src="/img/lanches/hamburguer-1.jpg" alt="Lanche" class="img-fluid">
                 <h2>X-Bacon</h2>
                 <small>Pão, hambúrguer 100g, bacon crocante,cheddar e...</small>
                 <div class="box-preco">
                     <span class="preco">R$19,90</span>
                     <a href="#" class="btn-adicionar">
-                        <img src="img/exports/btn-add.svg" alt="adicionar" height="20">
+                        <img src="/img/exports/btn-add.svg" alt="adicionar" height="20">
                     </a>
                 </div>
             </div>
 
             <div class="item-produto">
-                <img src="img/lanches/hamburguer-2.jpg" alt="Lanche" class="img-fluid">
+                <img src="/img/lanches/hamburguer-2.jpg" alt="Lanche" class="img-fluid">
                 <h2>X-Bacon</h2>
                 <small>Pão, hambúrguer 100g, bacon crocante,cheddar e...</small>
                 <div class="box-preco">
                     <span class="preco">R$19,90</span>
                     <a href="#" class="btn-adicionar">
-                        <img src="img/exports/btn-add.svg" alt="adicionar" height="20">
+                        <img src="/img/exports/btn-add.svg" alt="adicionar" height="20">
+                    </a>
+                </div>
+            </div>
+
+            <div class="item-produto">
+                <img src="/img/lanches/hamburguer-2.jpg" alt="Lanche" class="img-fluid">
+                <h2>X-Bacon</h2>
+                <small>Pão, hambúrguer 100g, bacon crocante,cheddar e...</small>
+                <div class="box-preco">
+                    <span class="preco">R$19,90</span>
+                    <a href="#" class="btn-adicionar">
+                        <img src="/img/exports/btn-add.svg" alt="adicionar" height="20">
                     </a>
                 </div>
             </div>
