@@ -1,9 +1,10 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Site;
 
 use App\Models\Pedido;
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
 
 class PedidoController extends Controller
 {

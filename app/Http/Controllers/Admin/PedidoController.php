@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Http\Controllers\Site;
+namespace App\Http\Controllers\Admin;
 
-use App\Models\Produto;
+use App\Models\Pedido;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
-class ProdutoController extends Controller
+class PedidoController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -35,7 +35,7 @@ class ProdutoController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Produto $produto)
+    public function show(Pedido $pedido)
     {
         //
     }
@@ -43,7 +43,7 @@ class ProdutoController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Produto $produto)
+    public function edit(Pedido $pedido)
     {
         //
     }
@@ -51,7 +51,7 @@ class ProdutoController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Produto $produto)
+    public function update(Request $request, Pedido $pedido)
     {
         //
     }
@@ -59,7 +59,7 @@ class ProdutoController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Produto $produto)
+    public function destroy(Pedido $pedido)
     {
         //
     }
