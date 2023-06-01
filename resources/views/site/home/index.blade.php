@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A melhor lanchonete de Marília">
+    <meta name="keywords" content="Lanchonete, Hamburguer, Burguer, Queijo, Pão, Molho especial, porções, pizzas, chopp">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="icones/icones.css">
+    <title>Lanchonete Burguer</title>
+</head>
+<body>
+    <header id="cabecalho">
+        <div id="barra-topo">
+            <div id="btn-menu" >
+                <i class="icon-botao-hamburguer"></i>
+            </div>
+            <div id="logotipo">
+                <img src="img/exports/logotipo-2.svg" alt="Lanchonete burguer" height="40">
+            </div>
+
+            <nav id="menu-principal">
+                <div id="menu-principal-topo">
+                    <div id="btn-close" class="icon-menu-fechar">
+                        <i class="icon-close"></i>
+                    </div>
+                    <img src="img/exports/logotipo-2.svg" alt="Lanchonete burguer" height="35">
+                </div>
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Lanchonete</a></li>
+                    <li><a href="#">Localização</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+            <div id="overlay"></div>
+            <div id="usuario">
+                <h1>
+                    <img src="img/profile/usuario1.jpg" class="formato-bolinha" alt="Usuário" height="40">
+                </h1>
+            </div>
+        </div>
+        <!-- Fim da barra superior -->
+
+        <!-- Início da barra de pesquisa -->
+            <div id="pesquisar">
+            <form action="" method="get">
+                <input type="search" name="pesquisar" placeholder="Quer comer o que?">
+                <button type="submit">
+                    <i class="icon-lupa"></i>
+                </button>
+            </form>
+        </div>
+    </header>
+    <!-- Fim do cabecalho -->
+
+    <main id="conteudo">
+        <div class="lista-categorias">
+            <ul>
+                <li>
+                    <div class="item-categoria">
+                        <i class="icon-hambuger"></i>
+                        <h2>Lanches</h2>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="item-categoria">
+                        <i class="icon-batata_frita"></i>
+                        <h2>Porções</h2>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-categoria">
+                        <i class="icon-pizza"></i>
+                        <h2>Pizzas</h2>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-categoria">
+                        <i class="icon-choppe"></i>
+                        <h2>Chopps</h2>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-categoria">
+                        <i class="icon-suco"></i>
+                        <h2>Sucos</h2>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="lista-produtos">
+            <div class="item-produto">
+                <img src="img/lanches/hamburguer-teste.jpg" alt="Lanche" class="img-fluid">
+                <h2>X-Bacon</h2>
+                <small>Pão, hambúrguer 100g, bacon crocante,cheddar e...</small>
+                <div class="box-preco">
+                    <span class="preco">R$19,90</span>
+                    <a href="hamburguer.html" class="btn-adicionar">
+                        <img src="img/exports/btn-add.svg" alt="adicionar" height="20">
+                    </a>
+                </div>
+            </div>
+
+            <div class="item-produto">
+                <img src="img/lanches/hamburguer-1.jpg" alt="Lanche" class="img-fluid">
+                <h2>X-Bacon</h2>
+                <small>Pão, hambúrguer 100g, bacon crocante,cheddar e...</small>
+                <div class="box-preco">
+                    <span class="preco">R$19,90</span>
+                    <a href="#" class="btn-adicionar">
+                        <img src="img/exports/btn-add.svg" alt="adicionar" height="20">
+                    </a>
+                </div>
+            </div>
+
+            <div class="item-produto">
+                <img src="img/lanches/hamburguer-2.jpg" alt="Lanche" class="img-fluid">
+                <h2>X-Bacon</h2>
+                <small>Pão, hambúrguer 100g, bacon crocante,cheddar e...</small>
+                <div class="box-preco">
+                    <span class="preco">R$19,90</span>
+                    <a href="#" class="btn-adicionar">
+                        <img src="img/exports/btn-add.svg" alt="adicionar" height="20">
+                    </a>
+                </div>
+            </div>
+
+            <div class="item-produto">
+                <img src="img/lanches/hamburguer-2.jpg" alt="Lanche" class="img-fluid">
+                <h2>X-Bacon</h2>
+                <small>Pão, hambúrguer 100g, bacon crocante,cheddar e...</small>
+                <div class="box-preco">
+                    <span class="preco">R$19,90</span>
+                    <a href="#" class="btn-adicionar">
+                        <img src="img/exports/btn-add.svg" alt="adicionar" height="20">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Fim do conteúdo principal -->
+
+    <!-- Rodapé -->
+    <footer>
+        <nav id="menu-rodape">
+            <ul>
+                <li><a href="#"><i class="icon-house"></i></a></li>
+                <li><a href="#"><i class="icon-cesta"></i></a></li>
+                <li><a href="#"><i class="icon-pedido"></i></a></li>
+                <li><a href="#"><i class="icon-favoritos"></i></a></li>
+                <li><a href="#"><i class="icon-user1"></i></a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
