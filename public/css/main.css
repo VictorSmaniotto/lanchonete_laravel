@@ -350,3 +350,9 @@ input[type="search"]::-webkit-search-results-decoration {
     background-color: var(--cor-verde-auxiliar);
     transition: 0.1s ease-in;
 }
+
+.boxConteudo {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 50px;
+}
