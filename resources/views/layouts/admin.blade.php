@@ -71,7 +71,7 @@
             font-size: .75rem;
         }
 
-
+        .navbar-dark{ background-color: #f24405 !important;}
         .navbar-brand {
             padding-top: .75rem;
             padding-bottom: .75rem;
@@ -134,7 +134,7 @@
         </div>
         <div class="navbar-nav">
             <div class="nav-item text-nowrap logout">
-                <a class="nav-link px-3 btn-secondary me-2"
+                <a class="nav-link text-light px-3 btn-secondary me-2"
                    href="#">Sair</a>
             </div>
         </div>

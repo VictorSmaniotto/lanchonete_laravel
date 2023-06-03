@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Admin\CategoriaController;
 use App\Http\Controllers\Admin\UsuarioController;
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\Site\HomeController;
@@ -18,3 +19,10 @@ Route::get('/cadastrar', [LoginController::class, 'registrar'])->name('auth.regi
 
 
 Route::get('/admin/usuarios', [UsuarioController::class, 'index'])->name('usuario.index');
+Route::get('/admin/usuarios/cadastrar', [UsuarioController::class, 'create'])->name('usuario.create');
+Route::get('/admin/usuarios/editar/{id}', [UsuarioController::class, 'edit'])->name('usuario.edit');
+
+
+Route::get('/admin/categorias', [CategoriaController::class, 'index'])->name('categoria.index');
+Route::get('/admin/categorias/cadastrar', [CategoriaController::class, 'create'])->name('categoria.create');
+Route::get('/admin/categorias/editar/{id}', [CategoriaController::class, 'edit'])->name('categoria.edit');

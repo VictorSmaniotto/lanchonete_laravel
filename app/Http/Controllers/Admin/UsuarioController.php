@@ -15,7 +15,7 @@ class UsuarioController extends Controller
 
     public function create()
     {
-        //
+        return view('admin.usuarios.cadastrar');
     }
 
     public function store(Request $request)
@@ -25,7 +25,7 @@ class UsuarioController extends Controller
 
     public function edit(string $id)
     {
-        //
+        return view('admin.usuarios.editar');
     }
 
     public function update(Request $request, string $id)
