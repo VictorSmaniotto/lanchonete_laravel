@@ -159,11 +159,11 @@
     gap: 5px;
 }
 
-/* .lista-categorias ul li {
-  flex-grow: 1;
-  flex-shrink: 0;
-  flex-basis: 20%;
-} */
+.lista-categorias ul li {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 20%;
+}
 
 .lista-categorias .item-categoria {
     display: flex;

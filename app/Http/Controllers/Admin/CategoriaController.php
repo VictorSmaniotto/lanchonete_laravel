@@ -36,7 +36,7 @@ class CategoriaController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Categoria $categoria)
+    public function edit(Categoria $id)
     {
         return view('admin.categorias.editar');
     }
@@ -44,7 +44,7 @@ class CategoriaController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Categoria $categoria)
+    public function update(Request $request, Categoria $id)
     {
         //
     }
@@ -52,7 +52,7 @@ class CategoriaController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Categoria $categoria)
+    public function destroy(Categoria $id)
     {
         //
     }
